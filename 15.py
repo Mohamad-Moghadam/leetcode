@@ -8,7 +8,7 @@ class Solution(object):
                 range_.remove(k)
                 for j in range(len(range_)):
                     if abs(nums[i]) == abs((nums[k]) + (nums[j])):
-                        new_list = [num[i], num[k], num[j]]
+                        new_list = [nums[i], nums[k], nums[j]]
                         final_list.append(new_list)
         return final_list
 
